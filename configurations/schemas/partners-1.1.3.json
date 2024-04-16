@@ -1,0 +1,44 @@
+{
+  "bsonType": "object",
+  "required": [
+    "_id",
+    "name"
+  ],
+  "properties": {
+    "_id": {
+      "description": "The unique identifier for a partner",
+      "bsonType": "objectId"
+    },
+    "name": {
+      "description": "partner name",
+      "msmType": "msmSentence"
+    },
+    "version": {
+      "description": "The Schema Version number (only on VERSION document)",
+      "msmType": "msmWord"
+    },
+    "description": {
+      "description": "Description of the partner",
+      "msmType": "msmSentence"
+    },
+    "status": {
+      "description": "The status of this partnership",
+      "msmEnums": "partnerStatus"
+    },
+    "url": {
+      "description": "Partner Company website",
+      "msmType": "msmUrl"
+    },
+    "contacts": {
+      "description": "Array of contacts associated with this partner",
+      "bsonType": "array",
+      "items": {
+        "bsonType": "objectId"
+      }
+		},
+		"lastSaved": {
+			"description": "Tracking information for updates",
+			"msmType": "msmBreadcrumb"
+    }
+  }
+}

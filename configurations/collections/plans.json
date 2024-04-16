@@ -1,0 +1,20 @@
+{
+  "name": "plans",
+  "versions": [
+    {
+      "version": "1.0.0.1",
+      "testData": "plans-1.0.0",
+      "addIndexes": [
+        {
+          "name": "name",
+          "key": {
+            "name": 1
+          },
+          "options": {
+            "unique": true
+          }
+        }
+      ]
+    }
+  ]
+}

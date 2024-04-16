@@ -1,0 +1,34 @@
+[
+  {
+    "_id": {
+      "$oid": "BBBB00000000000000000002"
+    },
+    "name": "Skill-1",
+    "status": "Active",
+    "description": "A Generalist skill for a Candidate Engineer",
+    "mastery": "Candidate",
+    "speciality": "Generalist",
+    "lastSaved": {
+      "atTime": {"$date": "2/26/2024 18:17:58"},
+      "byUser": {"$oid": 1},
+      "fromIp": "192.168.1.2",
+      "correlationId": "ae078031-7de2-4519-bcbe-fbd5e72b69d3"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "BBBB00000000000000000003"
+    },
+    "name": "Skill-2",
+    "status": "Active",
+    "description": "A UI/UX Engineer skill for a Apprentice Engineer",
+    "mastery": "Apprentice",
+    "speciality": "UI/UX Engineer",
+    "lastSaved": {
+      "atTime": {"$date": "2/27/2024 18:17:58"},
+      "byUser": {"$oid": 1},
+      "fromIp": "192.168.1.3",
+      "correlationId": "ae078031-7de2-4519-bcbe-fbd5e72b69d3"
+    }
+  }
+]

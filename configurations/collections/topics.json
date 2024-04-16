@@ -1,0 +1,20 @@
+{
+  "name": "topics",
+  "versions": [
+    {
+      "version": "2.0.3.1",
+      "testData": "topics-2.0.3",
+      "addIndexes": [
+        {
+          "name": "Name",
+          "key": {"name": 1},
+          "options": {"unique": true}
+        },
+        {
+          "key": {"link": 1},
+          "options": {"unique": true}
+        }
+      ]
+    }
+  ]
+}

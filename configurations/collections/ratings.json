@@ -1,0 +1,20 @@
+{
+  "name": "ratings",
+  "versions": [
+    {
+      "version": "1.0.0.1",
+      "testData": "ratings-1.0.0",
+      "addIndexes": [
+        {
+          "name": "resource",
+          "key": {
+            "resourceId": 1
+          },
+          "options": {
+            "unique": true
+          }
+        }
+      ]
+    }
+  ]
+}

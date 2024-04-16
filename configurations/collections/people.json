@@ -1,0 +1,20 @@
+{
+  "name": "people",
+  "versions": [
+    {
+      "version": "1.4.5.1",
+      "testData": "people-1.4.5",
+      "addIndexes": [
+        {
+          "name": "username",
+          "key": {
+            "userName": 1
+          },
+          "options": {
+            "unique": true
+          }
+        }
+      ]
+    }
+  ]
+}
