@@ -25,7 +25,7 @@ case $1 in
         ;;
 
     "deploy")
-        cp ./configurations/openApi/* ./docs
+        mv ./configurations/openApi/* ./docs
         ;;
 
     *)
