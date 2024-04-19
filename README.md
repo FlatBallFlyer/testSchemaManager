@@ -17,3 +17,13 @@ View [OpenApi specifications](https://flatballflyer.github.io/testSchemaManager/
 ```bash
 ./msm test container
 ```
+
+## Deploy the latest schemas
+```bash
+./msm deploy
+```
+
+## Shut down services after testing
+```bash
+./msm down
+```
